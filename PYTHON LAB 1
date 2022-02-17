@@ -1,0 +1,44 @@
+1.
+for t in range(int(input())):
+    A, B = input().split()
+    A, B = int(A), int(B)
+    print(A+B)
+2.
+T = int(raw_input())
+for tc in range(T):
+	# Read integers a and b.
+	(a, b) = map(int, raw_input().split(' '))
+	
+	#Compute the answer
+	#Complete the line below	
+	ans = a%b
+	print(ans)
+3.
+T = int(raw_input())
+for _ in range(T):
+    num = raw_input()
+    result = int(num[0]) + int(num[-1])
+    print(result)
+4.DATA TYPES
+a=4
+print("type of a",type(a))
+b="avdhi"
+print("type of b",type(b))
+c=[1,2,3,4,5,6]
+print("type of c",type(c))
+s={a="1",b="2";c="3"}
+print(type of s",type(s))
+d=(2,3,4,5,6)
+print("type of d",type(d)
+e=14.2
+print("type of e".type(e)
+
+5)/SUM OF FIRST AND LAST DIGIT OF THE GIVEN NUMBER 
+n = int(input("Enter any number : "))
+
+number = str(n)
+
+first = int(number[0])
+last = int(number[-1])
+sum = first + last
+print(f"sum of {first} and {last} is : ",sum)
